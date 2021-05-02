@@ -1,31 +1,26 @@
-+/*Color Palette
-
-coral
-#FF7F50
-
-ghostwhite
-#F8F8FF
-
-maroon
-#800000
-
-midnightblue
-#191970
-
-navajowhite
-#FFDEAD
-*/
 
 
 
 /*Global Styles--------------------------------------------------------------------------------------------------------*/
-body{
+.flexSection {
+    display: flex;
+    flex-direction:column ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 5em;
+}
+section .item1 h4{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 
   
-  /* Profile-------------------------------------------------------------------------------------------------------*/
-  header {
-    background: #FFFFE0;
-  }
+  /* Header-------------------------------------------------------------------------------------------------------*/
+  header {font-family:monospace;
+          background:#FFDEAD;
+          padding: 50px;
+          color: #696969;
+          text-shadow: 10px;
+          
+        }
   
   
   
