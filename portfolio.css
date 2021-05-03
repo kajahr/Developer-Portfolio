@@ -15,14 +15,29 @@ section .item1 h4{
   
   /* Header-------------------------------------------------------------------------------------------------------*/
   header {font-family:monospace;
+
           background:#FFDEAD;
           padding: 50px;
           color: #696969;
           text-shadow: 10px;
-          
+          background-image: url("images/libraryshelves.png") ;
+          background-repeat: no-repeat;
+          background-size:350px;
+          background-position: right;
+          background-position-x: 80%;
+          background-blend-mode:overlay;
+        
         }
+
+    button {
+        border-style: double;
+        background-color: black;
+        color:chartreuse;
+    }
+
+   
   
-  
+
   
   
   /* Projects-------------------------------------------------------------------------------------------------------*/
