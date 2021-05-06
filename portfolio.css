@@ -9,14 +9,12 @@ body {
 
 .flexSection {
     display: flex;
-    flex-direction:column ;
+    flex-flow:row wrap ;
     font-family: monospace;
-    margin: 5em;
+    width: 1000px;
+    justify-content:space-evenly;
+    flex-grow: 1;
 }
-section .item1 h4{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
   
   /* Header-------------------------------------------------------------------------------------------------------*/
   header {font-family:monospace;
@@ -31,18 +29,15 @@ section .item1 h4{
   
   
   /* Projects-------------------------------------------------------------------------------------------------------*/
-  .projects {
-    background: #F8F8FF;
+  .item1{
+    background-color: aqua;
   }
-  .projects a {
-  .projects .btn {
-    color: #F8F8FF;
-    background: #191970;
-    padding: 8px;
-    border-radius: 4px;
+  .item2 {
+    background-color: darkorange;
   }
-  .projects .btn:hover {
-    background: rgba(25, 25, 112, 80%); }
+  .item3 {
+    background-color: rebeccapurple;
+  }
   
   
   
