@@ -2,10 +2,15 @@
 
 
 /*Global Styles--------------------------------------------------------------------------------------------------------*/
+body {
+  font-family: monospace;
+}
+
+
 .flexSection {
     display: flex;
     flex-direction:column ;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: monospace;
     margin: 5em;
 }
 section .item1 h4{
