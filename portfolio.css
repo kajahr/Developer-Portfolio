@@ -2,16 +2,19 @@
 
 
 /*Global Styles--------------------------------------------------------------------------------------------------------*/
-.flexSection {
-    display: flex;
-    flex-direction:column ;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin: 5em;
-}
-section .item1 h4{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+body {
+  font-family: monospace;
 }
 
+
+.flexSection {
+    display: flex;
+    flex-flow:row wrap ;
+    font-family: monospace;
+    width: 1000px;
+    justify-content:space-evenly;
+    flex-grow: 1;
+}
   
   /* Header-------------------------------------------------------------------------------------------------------*/
   header {font-family:monospace;
@@ -41,18 +44,15 @@ section .item1 h4{
   
   
   /* Projects-------------------------------------------------------------------------------------------------------*/
-  .projects {
-    background: #F8F8FF;
+  .item1{
+    background-color: aqua;
   }
-  .projects a {
-  .projects .btn {
-    color: #F8F8FF;
-    background: #191970;
-    padding: 8px;
-    border-radius: 4px;
+  .item2 {
+    background-color: darkorange;
   }
-  .projects .btn:hover {
-    background: rgba(25, 25, 112, 80%); }
+  .item3 {
+    background-color: rebeccapurple;
+  }
   
   
   
