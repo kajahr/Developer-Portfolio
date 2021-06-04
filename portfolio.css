@@ -8,12 +8,20 @@ body {
 
 
 .flexSection {
-    display: flex;
-    flex-flow:row wrap ;
+    /* display: flex;
+    flex-flow:row ;
+    flex-direction: wrap; 
     font-family: monospace;
-    width: 1000px;
+    width: 100em;
     justify-content:space-evenly;
-    flex-grow: 1;
+    flex-grow: 1;*/
+   
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    text-indent: 15px; 
 }
   
   /* Header-------------------------------------------------------------------------------------------------------*/
@@ -49,6 +57,7 @@ body {
   }
   .item2 {
     background-color: darkorange;
+
   }
   .item3 {
     background-color: rebeccapurple;
